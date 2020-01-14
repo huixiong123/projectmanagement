@@ -5,7 +5,7 @@ import {environment} from '../../environments/environment';
   providedIn: 'root'
 })
 export class HttpRouterService {
-  private ApiUrl = `${environment.baseApiUrl}/api/allianz/${environment.apiVersion}`;
+  private ApiUrl = `${environment.baseApiUrl}/api/test/${environment.apiVersion}`;
 
   constructor() {
   }
