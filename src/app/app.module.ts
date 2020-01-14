@@ -40,7 +40,7 @@ import {ConfirmComponent} from './modal/confirm/confirm.component';
       strategies: [
         NbPasswordAuthStrategy.setup({
           name: 'email',
-          baseEndpoint: 'http://localhost:8080/api/allianz/v1',
+          baseEndpoint: 'http://localhost:8080/api/test/v1',
           login: {
             endpoint: '/auth/login',
             redirect: {
